@@ -1,15 +1,27 @@
 <ion-header>
-  <ion-toolbar class="top-menu">
-
-  <ion-icon class="img-menu">
-    <img src="../../assets/icon/favicon.png" alt="">
-  </ion-icon>
+  <ion-toolbar class="top-menu">  
+    <img src="../../assets/Logo Bussola.png" alt="" class="img-menu">  
     <ion-title class="center">
       Pra onde ir
     </ion-title>
+    <ion-title class="login">
+    <ion-text class="text-login">
+        <a href="">Login</a> 
+    </ion-text>
+    <ion-text>
+        <a href="">Logout</a> 
+      </ion-text>
+  </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+    <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide class="slide-home">
+          <img src="../../assets/Logo Bussola.png">
+        </ion-slide>
+      </ion-slides>
+  
    
 </ion-content>
