@@ -1,0 +1,7 @@
+{
+  "name": "pra-onde-ir",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
